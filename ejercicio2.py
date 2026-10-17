@@ -1,13 +1,14 @@
-nota = int(input("Introduce tu nota: "))
+nota = float(input("Introduce la nota (0-10): "))
 
-if (nota < 0 or nota > 10):
-	print("Nota no válida")
-elif (nota < 5):
-    	print("Suspenso")
->>>>>>> validar-nota
-elif (nota >= 5 and nota < 7):
-    	print("Estás aprobado")
-elif (nota >= 7 and nota < 9):
-    	print("Tienes un notable")
+if nota < 0 or nota > 10:
+	calificacion = "Nota no válida"
+elif nota < 5:
+	calificacion = "Insuficiente"
+elif nota < 6:
+	calificacion = "Suficiente"
+elif nota < 7:
+	calificacion = "Bien"
+elif nota < 9:
+	calificacion = "Notable"
 else:
-    	print("Tienes un sobresaliente")
+	calificacion = "Sobresaliente"
