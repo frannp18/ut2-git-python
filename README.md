@@ -20,3 +20,5 @@ Mis ficheros
 
 | ej04\_adivina.py | while + break |
 
+| ej05_menu.py | match-case | 
+| ej06_suma_pares.py | for + continue | 
