@@ -3,7 +3,7 @@ nota = int(input("Introduce tu nota: "))
 if (nota < 0 or nota > 10):
 	print("Nota no válida")
 elif (nota < 5):
-    	print("Insuficiente")
+    	print("Suspenso")
 >>>>>>> validar-nota
 elif (nota >= 5 and nota < 7):
     	print("Estás aprobado")
