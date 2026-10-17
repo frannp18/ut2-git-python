@@ -1,6 +1,6 @@
 limite = int(input("¿Hasta qué número?"))
 
-for i in range(1, limite+1):
+for i in range(1, 31):
     if i % 15 == 0:
         print("FizzBuzz")
     elif i % 3 == 0:
