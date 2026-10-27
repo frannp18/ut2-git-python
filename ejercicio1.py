@@ -1,6 +1,10 @@
-num = int(input("Introduce un número: "))
 #Autor: Compañero
-if (num % 2 == 0):
-    print(num, "es par")
+try:
+    num = int(input("Introduce un número: "))
+except ValueError:
+    print("Error: debes introducir un número entero")
 else:
-    print(num, "es impar")
+    if num % 2 == 0:
+        print(num, "es par")
+    else:
+        print(num, "es impar")
