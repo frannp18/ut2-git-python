@@ -1,28 +1,34 @@
-#UT 2 - Ficheros de git
+# UT2 - Ejercicios de Python con Git
 
+Ejercicios de estructuras de control en Python, usados como proyecto de práctica de Git y GitHub en la UT2 de Despliegue de Aplicaciones Web (2º DAW).
 
+**Autor:** Fran
 
-Mis ficheros
-
-"Autor: Fran"
-
-
+## Ejercicios
 
 | Fichero | Estructura de control |
-
 |---|---|
+| `ejercicio1.py` | if / else |
+| `ejercicio2.py` | if / elif / else |
+| `ej03_tabla_multiplicar.py` | for |
+| `ej04_adivina.py` | while + break |
+| `ej05_menu.py` | match-case |
+| `ej06_suma_pares.py` | for + continue |
+| `ej07_fizzbuzz.py` | for + if / elif |
+| `ej08_contrasena.py` | while + else |
 
-| ej01_par_impar.py | if / else |
+## Requisitos
 
-| ej02_calificacion.py | if / elif / else |
+- Python 3.10 o superior (`ej05_menu.py` usa `match-case`).
 
-| ej03_tabla_multiplicar.py | for |
+## Instalación y uso
 
-| ej04_adivina.py | while + break |
+```bash
+git clone git@github.com:frannp18/ut2-git-python.git
+cd ut2-git-python
+python ejercicio1.py
+```
 
-| ej05_menu.py | match-case | 
-| ej06_suma_pares.py | for + continue | 
-| ej07_fizzbuzz.py | for + if/elif | 
-| ej08_contrasena.py | while + else | 
+Sustituye `ejercicio1.py` por el ejercicio que quieras ejecutar (en Linux o macOS, usa `python3`).
 
 Ver [CONTRIBUTING.md](CONTRIBUTING.md) para contribuir al proyecto.
