@@ -4,7 +4,7 @@ try:
 except ValueError:
     print("Error: debes introducir un número entero")
 else:
-    if num % 2 == 0:
+    iff num % 2 == 0:
         print(num, "es par")
     else:
         print(num, "es impar")
